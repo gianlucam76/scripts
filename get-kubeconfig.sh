@@ -128,11 +128,7 @@ EOF
 echo "---
 Done!
 
-Copy the generated kubeconfig file to your Teleport Proxy server, and set the
-kubeconfig_file parameter in your teleport.yaml config file to point to this
-kubeconfig file.
-
 If you need access to multiple kubernetes clusters, you can generate additional
 kubeconfig files using this script and then merge them using merge-kubeconfigs.sh.
 
-Note: Kubernetes RBAC rules for Teleport were created, you won't need to create them manually."
+Note: Kubernetes RBAC rules for Projectsveltos were created, you won't need to create them manually."
